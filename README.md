@@ -4,7 +4,7 @@
 
 **设计表格 → 绑定字段 → 保存模板 → 选择数据源 → 生成预览 → 导出 Excel**
 
-[在线体验](https://fangge-report-preview-20261020.spiffylemur4.chatgpt.site) · [变更记录](CHANGELOG.md) · [GitHub 发布准备](docs/GITHUB_PUBLISH.md)
+[变更记录](CHANGELOG.md)
 
 当前使用 Mock 数据，无需后端、账号或 API Key。数据访问通过统一服务层提供，后续可替换为后端接口。
 
@@ -108,7 +108,7 @@ src/
 ├── stores/designer.ts       # 设计器状态
 └── App.vue                  # 页面和交互编排
 tests/                       # 领域、编辑保护、存储及导出测试
-docs/                        # 截图与 GitHub 发布说明
+docs/                        # 界面截图
 ```
 
 ### 模板与数据处理
