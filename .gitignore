@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+coverage/
+.vite/
+
+# 本地配置与敏感文件
+.env
+.env.*
+!.env.example
+.openai/
+.npmrc
+.vscode/
+.idea/
+*.tsbuildinfo
+*.local
